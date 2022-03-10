@@ -1,0 +1,369 @@
+/*Обнуление стилей CSS*/
+* {
+  padding: 0;
+  margin: 0;
+  border:0;
+}
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus, :active {
+  outline: none;
+}
+a:focus, a:active{
+  outline: none
+}
+nav, footer, header, aside {
+  display: block;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {
+  font-family: inherit;
+}
+input::-ms-clear{
+  display: none;
+}
+button{
+  cursor: pointer;
+}
+button::-moz-focus-inner{
+  padding: 0;
+  border: 0;
+}
+a, a:visited{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+img{
+  vertical-align: top
+}
+h1,h2,h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*----------------*/
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+  font-family: 'Gilroy-Medium';
+  }
+.wrapper {
+
+}
+
+.header {
+
+}
+
+.page {
+  background: #FFFFFF;
+}
+
+.page_grey {
+  background: #F6F6F6;
+}
+
+.conteiner {
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+
+.main_menu {
+
+}
+
+.main_menu__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_menu__item {
+  padding: 32px 0;
+}
+
+.main_menu__item a {
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+.main_menu__item a:hover {
+  color: #070707;
+}
+
+.line {
+  border: 1px solid #828282;
+  background: #828282;
+}
+.main_block {
+margin: 39px 0 104px;
+}
+
+.coloms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coloms__item {
+
+font-size: 18px;
+line-height: 22px;
+
+}
+
+.coloms__item_h1 {
+  width: 124px;
+}
+
+h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 47.3392px;
+  line-height: 59px;
+}
+.coloms__item_lang
+{
+  transform: rotate(270deg);
+
+
+}
+.coloms__item_lang a {
+  font-family: 'Gilroy-Bold';
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.coloms__item_lang a:hover {
+  color: #070707;
+}
+.image {
+margin: 50px 0 0;
+}
+.image img {
+  max-width: 100%;
+}
+.aboude {
+
+}
+
+
+
+.title {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.title_center {
+  text-align: center;
+
+}
+
+.title_abode {
+  padding:  120px 0 17.6px;
+}
+
+.text {
+  font-size: 18px;
+line-height: 22px;
+
+}
+.text_abode {
+  padding: 0 0 110px;
+}
+
+.text_center {
+  text-align: center;
+}
+.text_center p {
+  margin: 10px 0 20px;
+}
+
+.skills {
+  padding: 91px 0 0;
+}
+.text_skills {
+  padding: 69px 0 83px;
+}
+.skills_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_coloms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.box_coloms__img {
+
+}
+
+.box_coloms__text {
+  padding: 15px 0 30px;
+  text-align: center;
+}
+
+.box_coloms__stars {
+  padding: 0 0 90px;
+  height: 26px;
+}
+
+.stars {
+
+}
+
+.portfolio {
+  padding: 90px 0 0;
+}
+
+.portfolio_box {
+  margin: 47px 0 0;
+}
+
+.portfolio_box__img img {
+  max-width: 100%;
+}
+
+.portfolio_box__text {
+  padding:  44px 0 99px;
+  text-decoration-line: underline;
+}
+
+
+.footer {
+  padding: 114px 0 0;
+}
+
+.text_footer{
+  padding: 0 0 29px;
+}
+
+.button {
+  background: #070707;
+  height: 42px;
+  width: 180px;
+  border-radius: 30px;
+  padding: 13px 22px 6px;
+  color: #FFFFFF;
+
+}
+
+.icon {
+  max-width: 343px;
+  margin: 85px auto 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  padding:0 0 220px;
+}
+
+
+
+@media only screen and (max-device-width: 999px) {
+  .conteiner {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .menu_box {
+    width: 750px;
+  }
+
+}
+
+@media only screen and (max-device-width: 770px) {
+  .conteiner {
+    max-width: none;
+    padding: 15px;
+  }
+  .skills_box {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .coloms {
+    display: flex;
+    flex-direction: column;
+  }
+  .coloms__item_lang
+  {
+    transform: rotate(0);
+  }
+
+  .nav_menu_box {
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (max-device-width: 550px) {
+  .conteiner {
+    max-width: none;
+    padding: 15px;
+  }
+  .skills_box {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .coloms {
+    display: flex;
+    flex-direction: column;
+  }
+  .coloms__item_lang
+  {
+    transform: rotate(0);
+  }
+
+  .nav_menu_box {
+    overflow: hidden;
+  }
+
+  .main_menu__header {
+    flex-direction: column;
+  }
+}
